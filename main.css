@@ -1,0 +1,70 @@
+/* Your CSS here */
+body {
+  font-family: sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.main {
+  width: 400px;
+  margin: auto;
+}
+
+.main h2 {
+  text-align: center;
+}
+
+.bars, .list {
+  padding: 20px;
+  border: 1px solid black;
+}
+
+.bars {
+  margin-bottom: -1px;
+}
+
+.bars table {
+  width: 100%;
+}
+
+.bars tr {
+  cursor: pointer;
+}
+
+.bars tr > td:nth-child(1) {
+  color: #0099ff;
+  width: 35%;
+}
+
+.bars tr > td:nth-child(2) {
+  background: grey;
+  border: 1px solid black;
+  height: 20px;
+}
+
+.bars tr > td:nth-child(3) {
+  text-align: right;
+  width: 10%;
+}
+
+.list > div:nth-child(1) {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.list > div:nth-child(2) > div {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid lightgrey;
+}
+
+.list > div:nth-child(2) > div > span {
+  float: right;
+}
+
+.list> div:nth-child(3) {
+  margin: auto;
+  width: 84px;
+}

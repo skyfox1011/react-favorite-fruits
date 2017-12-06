@@ -1,0 +1,1 @@
+export default (state = null, action) => action.type === 'LIST_LOADED' ? action.payload : state; 

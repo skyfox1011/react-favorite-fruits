@@ -1,0 +1,1 @@
+export default (state = null, action) => action.type === 'FAVORITES_FILTERED' ? action.payload : state;
